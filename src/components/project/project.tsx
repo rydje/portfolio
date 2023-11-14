@@ -26,7 +26,7 @@ export default function Project() {
     <div>
       <div className="grid grid-cols-3 justify-center gap-4">
         {projects.map((projectData, i) => 
-            <ProjectCard project={projectData}/>
+            <ProjectCard key={i} project={projectData}/>
         )}
       </div>
       <p className="mt-8">

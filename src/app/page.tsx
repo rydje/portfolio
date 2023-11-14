@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <Social />
       </header>
-      <main className="mb-12 xl:w-1/2 pt-24 xl:order-last space-y-10">
+      <main className="mb-12 xl:w-1/2 pt-24 xl:order-last xl:space-y-5">
         <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-neutral-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 xl:sr-only xl:relative xl:top-auto xl:mx-auto xl:w-full xl:px-0 xl:py-0 xl:opacity-0">
           <h2 className="text-2xl xl:sr-only font-bold text-neutral-100">
             About

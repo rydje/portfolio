@@ -32,7 +32,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
       <div className="flex flex-wrap">
         {project.skills.map((skill, i) => (
-          <span className="text-neutral-500 mr-2">{skill}</span>
+          <span key={i} className="text-neutral-500 mr-2">{skill}</span>
         ))}
       </div>
     </div>

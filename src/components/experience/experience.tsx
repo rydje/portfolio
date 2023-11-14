@@ -48,7 +48,7 @@ export default function Experience() {
     <div>
       <div className="2xl:grid 2xl:grid-cols-2">
         {experiences.map((experienceData, i) => 
-            <ExperienceCard card={experienceData}></ExperienceCard>
+            <ExperienceCard key={i} card={experienceData}></ExperienceCard>
         )}
       </div>
       <p className="mt-8">
