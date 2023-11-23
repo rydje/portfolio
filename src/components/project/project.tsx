@@ -24,7 +24,7 @@ export default function Project() {
 
   return (
     <div>
-      <div className="grid grid-cols-3 justify-center gap-4">
+      <div className="grid sm:grid-cols-3 justify-center gap-4">
         {projects.map((projectData, i) => 
             <ProjectCard key={i} project={projectData}/>
         )}

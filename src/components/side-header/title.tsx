@@ -9,8 +9,8 @@ export default function Title() {
         </h2>
       </div>
       <p>I have been crafting ideas into production for more than 10 years</p>
-        <a href="mailto:ryan.djebrouni@gmail.com" className="inline-block my-12 px-8 py-2 bg-amaranth-500 rounded-lg text-center text-neutral-100 text-lg font-semibold hover:text-neutral-100">
-          HIRE ME
+        <a href="https://calendly.com/rdjebrouni" target="_blank" className="inline-block my-12 px-8 py-2 bg-amaranth-500 rounded-lg text-center text-neutral-100 text-lg font-semibold hover:text-neutral-100">
+        GET IN TOUCH
         </a>
     </div>
   );
