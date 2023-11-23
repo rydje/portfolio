@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="bg-neutral-700 rounded-lg p-3 flex flex-col justify-between">
+    <div className="bg-neutral-700 rounded-lg p-3 flex flex-col justify-between mb-3">
       <div>
         <div className="flex justify-start gap-4 items-center">
           <svg
