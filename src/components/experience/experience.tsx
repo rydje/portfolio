@@ -5,7 +5,7 @@ export default function Experience() {
     {
       title: "Lead backend",
       date: "Mar 2022 - Jun 2023",
-      type: "Remote",
+      type: "Paris",
       description:
         'As a Lead Backend Engineer at Testapic, I led a team of 4 engineers toward the <span class="font-semibold text-neutral-100">Clean Architecture</span> path. I drafted best practices, improved system performance (Data optimization), stability (Unit testing), security (code audit). During that time I animated many talks introducing technical topics such as <span class="font-semibold text-neutral-100">Specification pattern</span>, <span class="font-semibold text-neutral-100"></span>Pragmatic Unit Testing</span>, <span class="font-semibold text-neutral-100">Circuit breakers</span>, ...',
       image: "/images/testapic-logo.png",
@@ -15,7 +15,7 @@ export default function Experience() {
     {
       title: "Lead backend",
       date: "Jun 2017 - Mar 2023",
-      type: "Paris then remote",
+      type: "Paris",
       description:
         'Eurecab helps people compare and book the best driver at the best price. Its marketplace is open to major cabs companies (<span class="font-semibold text-neutral-100">Lecab</span>, <span class="font-semibold text-neutral-100">Snapcar</span>, <span class="font-semibold text-neutral-100">Marcel</span> ...) as well as to independent drivers on most cities. Spearheaded design and implementation of common ride haling critical services (real-time geotracking, driver/rider matching algorithm, coupon system, and many more...',
       image: "/images/eurecab-logo.svg",
@@ -39,7 +39,7 @@ export default function Experience() {
       description:
         'I joined Smile as an intern and received coaching and support from senior fullstack engineers to gain practical experience in using PHP Drupal, which enabled me to build website for big brands such as <span class="font-semibold text-neutral-100">Campanile</span>, <span class="font-semibold text-neutral-100">Total.com</span>, and <span class="font-semibold text-neutral-100">Paris Sorbonne</span> library intranet',
       image: "/images/smile-logo.png",
-      imageBgColor: "337AB7",
+      imageBgColor: "FFF",
       skills: ["Symfony", "Clojure", "MySQL", "Postgres", "GCP", "RabbitMQ"],
     },
   ];
