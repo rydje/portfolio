@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Outfit } from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react'
+import Providers from './providers'
 
 const outfit = Outfit({ subsets: ['latin'] })
 
@@ -16,11 +17,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${outfit.className} bg-neutral-900 text-neutral-300`}>
-        {children}
-        <Analytics />
-      </body>
-    </html>
+      <html lang="en">
+        <body className={`${outfit.className} bg-neutral-900 text-neutral-300`}>
+          <Providers>{children}</Providers>
+          <Analytics />
+        </body>
+      </html>
   )
 }
