@@ -3,6 +3,15 @@ import ExperienceCard from "./experience-card";
 export default function Experience() {
   const experiences = [
     {
+      title: "Freelance Lead backend",
+      date: "Jun 2024 - Dec 2024",
+      type: "Remote",
+      description: "Take over technical ownership on critical projects using different tech stacks. <br/>- Balance sheet platform: PHP Laminas, MariaDB, Azure, Kubernetes/Helm, CI/CD on GitLab<br/>- Payment schedule generator: Python Django, Postgres, Azure, GitHub<br/>- GED (Support role): TypeScript Koa, Postgres, AWS, Kubernetes/Helm, Terraform, VueJS<br/>Operate migration from Azure to AWS and also GitLab to GitHub.",
+      image: "/images/arpilabe-logo.png",
+      imageBgColor: "FEFEFE",
+      skills: ["PHP/Laminas", "TypeScript/Koa", "VueJS", "Python/Django", "React", "Postgres", "Azure"],
+    },
+    {
       title: "Lead backend",
       date: "Mar 2022 - Jun 2023",
       type: "Paris",
@@ -47,7 +56,7 @@ export default function Experience() {
   return (
     <div>
       <div className="2xl:grid 2xl:grid-cols-2">
-        {experiences.map((experienceData, i) => 
+        {experiences.map((experienceData, i) =>
             <ExperienceCard key={i} card={experienceData}></ExperienceCard>
         )}
       </div>
